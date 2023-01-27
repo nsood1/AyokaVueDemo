@@ -13,11 +13,9 @@ const count = ref(0)
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-
-    </p>
   </div>
 
+ 
 </template>
 
 <style scoped>
